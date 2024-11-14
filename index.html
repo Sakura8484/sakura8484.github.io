@@ -6,13 +6,19 @@
     <meta name="description" content="A website for allergy-friendly recipes for children.">
     <title>Allergy-Free Kids Recipes</title>
      <script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script> 
-    <script type ="text/java script"> (function() { emailjs.int({ publickey: "o3b9i6py6NybD5Lr-", }); })(); </script>
+    <script type="text/javascript"> (function() {
+    const publicKey = ""o3b9i6py6NybD5Lr-"; 
+    emailjs.init({ publicKey });
+  })();
+</script>
+
     
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FSR5PRZ8T"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
+
   gtag('js', new Date());
 
   gtag('config', 'G-3FSR5PRZ8T');
@@ -101,7 +107,7 @@
     </style>
 </head>
 <body>
-      <script src="script.js"></script>
+      <script src="script.js"> </script>
 <header>
     <h1>Allergy-Friendly Recipes</h1>
     <p>Safe and delicious recipes for children with food allergies</p>
