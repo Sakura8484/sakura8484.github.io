@@ -1,4 +1,4 @@
-<script src="https://cdn.emailjs.com/sdk/2.6.4/email.min.js"></script>
+
 
 <script>
   emailjs.init("o3b9i6py6NybD5Lr-");
