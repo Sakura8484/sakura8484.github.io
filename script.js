@@ -17,7 +17,7 @@
       message: message
     };
 
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+    emailjs.send("YOUR_SERVICE_ID", "template_a9cv85w", templateParams)
       .then(function(response) {
         console.log("SUCCESS!", response.status, response.text);   
 
