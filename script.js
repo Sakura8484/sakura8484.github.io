@@ -1,34 +1,36 @@
-
 <script>
-  const form = document.getElementById('feedbackForm');
+  emailjs.init("o3b9i6py6NybD5Lr-");
 
-  form.addEventListener('submit', (event) => {
-    event.preventDefault(); // Prevent default form submission
+  document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault();
 
-    // Get form data
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;   
+    const name = document.getElementById("name").value;   
 
-    const feedback = document.getElementById('feedback').value;   
+    const email = document.getElementById("email").value;
+    const message = document.getElementById("message").value;
 
+    const templateParams   
+ = {
+      to_name: "Your Name",
+      from_name: name,
+      reply_to: email,
+      message: message
+    };
 
-    // Send the data to a server-side script (e.g., PHP, Node.js)
-    // or directly to an email using a library like EmailJS
-    // Here's a simplified example using a hypothetical function:
-    sendFeedback(name, email, feedback);
+    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", templateParams)
+      .then(function(response) {
+        console.log("SUCCESS!", response.status, response.text);   
 
-    // Display a success message to the user
-    alert('Thank you for your feedback!');
-
-    // Optionally, reset the form
-    form.reset();
+        alert("Thank you for your feedback!");
+      })
+      .catch(function(error) {
+        console.log("FAILED...", error);
+        alert("Oops, something went wrong. Please try again later.");
+      });
   });
-
-  // Hypothetical function to send feedback (replace with actual implementation)
-  function sendFeedback(name, email, feedback) {
-    // ... code to send the data to a server or email service
-  }
 </script>
+
+
 
 
 
