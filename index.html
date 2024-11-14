@@ -179,21 +179,20 @@
     <button type="submit">Send Feedback</button>
 </form>
         
-      <script>
-    function showForm() {
-      document.getElementById("feedbackForm").style.display = "block";
-    }
+    <script>
 
-    function sendEmail() {
-      const name = document.getElementById("name").value;
+        emailjs.init("o3b9i6py6NybD5Lr-");
+
+    document.getElementById("myForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+
+      const name = document.getElementById("name").value;   
+
       const email = document.getElementById("email").value;
-      const   
- message = document.getElementById("message").value;   
+      const message = document.getElementById("message").value;
 
-
-      emailjs.init("o3b9i6py6NybD5Lr-");
-
-      const templateParams = {
+      const templateParams   
+ = {
         to_name: "Your Name",
         from_name: name,
         reply_to: email,
@@ -205,14 +204,15 @@
           console.log("SUCCESS!", response.status,   
  response.text);
           alert("Thank you for your feedback!");
-          document.getElementById("feedbackForm").style.display = "none";
         })
         .catch(function(error) {
           console.error("FAILED...", error);
           alert("Oops, something went wrong. Please try again later.");
         });
-    }
+    });
   </script>
+        
+
        
             
     </section>
