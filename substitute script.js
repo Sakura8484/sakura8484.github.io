@@ -9,7 +9,7 @@ const allergenSubstitutions = {
   gluten: ['rice flour', 'corn flour', 'quinoa flour', 'buckwheat flour'],
   nuts: ['sunflower seeds', 'pumpkin seeds', 'chia seeds', 'hemp seeds', 'almond', 'cashew'],
   eggs: ['flax egg', 'chia egg', 'applesauce', 'banana'],
-  cheese: ['vegan cheese', 'nut-based cheese', 'soy-based chees
+  cheese: ['vegan cheese', 'nut-based cheese', 'soy-based cheese'],
 };
 
 searchButton.addEventListener('click', () => {
