@@ -25,7 +25,10 @@ h1 {
     margin: 20px auto;
     max-width: 80%;
 }
-
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 .instructions h2 {
     font-size: 24px;
     font-weight: bold;
