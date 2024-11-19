@@ -4,12 +4,12 @@ const resultsDiv = document.getElementById('results');  
 
 
 const allergenSubstitutions = {
-  dairy: ['oat milk', 'soy milk', 'almond milk'],
-  gluten: ['rice flour', 'corn flour', 'quinoa flour'],
-  nuts: ['sunflower seeds', 'pumpkin seeds', 'chia seeds']
-  egg: ['chickpeas', 'tofu', 'flax seeds with water']
-  cheese: ['soy based cheese', 'tree nut based cheese']
-  peanut: ['almond', 'cashew']
+
+ dairy: ['oat milk', 'soy milk', 'almond milk', 'coconut milk', 'rice milk'],
+  gluten: ['rice flour', 'corn flour', 'quinoa flour', 'buckwheat flour'],
+  nuts: ['sunflower seeds', 'pumpkin seeds', 'chia seeds', 'hemp seeds', 'almond', 'cashew'],
+  eggs: ['flax egg', 'chia egg', 'applesauce', 'banana'],
+  cheese: ['vegan cheese', 'nut-based cheese', 'soy-based chees
 };
 
 searchButton.addEventListener('click', () => {
