@@ -3,26 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Allergy-Free   
- Recipe: [Recipe Name]</title>
+    <title>Dairy Free   
+ Recipe: Strawberry Smoothie</title>
     <link rel="stylesheet" href="styles.css"> </head>
 <body>
-    <h1>[Recipe Name]</h1>
+    <h1>Strawberry Smoothie</h1>
     <img src="recipe_image.jpg" alt="[Recipe Name Image]">
-    <h2>Ingredients:</h2>
+    <h2>Ingredients for 2 glasses</h2>
     <ul>
-        <li>[Ingredient 1]</li>
-        <li>[Ingredient 2]</li>
+        <li>2 cups of strawberries</li>
+        <li>1 banana</li>
+        <li>1/4 cup dairy free milk, e.g. oat milk</li>
+       <li> 2 tablespoons maple syrup optional banana</li>
+       <li> 1 teaspoon of cocoa power </li>
+       <li> a cup of ice cubes</li>
         </ul>
     <h2>Instructions:</h2>
     <ol>
-        <li>[Instruction 1]</li>
-        <li>[Instruction 2]</li>
+        <li>Put all the ingredients into a blender</li>    
+        <li>Blend on high speed till mixture is smooth and cohesive</li>
+        <li>pour into a glass, sprinkle some cocoa power on top and serve  </li> 
+ 
         </ol>
     <p>Nutritional Information (per serving):</p>
     <ul>
-        <li>Calories: [Calories]</li>
-        <li>Protein: [Protein]</li>
+        <li>Calories:75</li>
+        
         </ul>
 </body>
 </html>
