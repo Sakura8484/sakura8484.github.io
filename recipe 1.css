@@ -45,3 +45,25 @@ h1 {
 .instructions li {
     margin-bottom: 10px;
 }
+/* ... other styles ... */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  padding-left: 0;
+}
+
+ol li {
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+ol li::before {
+  content: counter(item) ". ";
+  margin-right: 5px;
+}
