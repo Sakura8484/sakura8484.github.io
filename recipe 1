@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allergy-Free   
+ Recipe: [Recipe Name]</title>
+    <link rel="stylesheet" href="styles.css"> </head>
+<body>
+    <h1>[Recipe Name]</h1>
+    <img src="recipe_image.jpg" alt="[Recipe Name Image]">
+    <h2>Ingredients:</h2>
+    <ul>
+        <li>[Ingredient 1]</li>
+        <li>[Ingredient 2]</li>
+        </ul>
+    <h2>Instructions:</h2>
+    <ol>
+        <li>[Instruction 1]</li>
+        <li>[Instruction 2]</li>
+        </ol>
+    <p>Nutritional Information (per serving):</p>
+    <ul>
+        <li>Calories: [Calories]</li>
+        <li>Protein: [Protein]</li>
+        </ul>
+</body>
+</html>
