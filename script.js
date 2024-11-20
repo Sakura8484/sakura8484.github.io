@@ -10,7 +10,7 @@
 
                   // Add a success message or redirect the user here
     alert('Email sent successfully!');
-          
+      
     });
   </script>
 
